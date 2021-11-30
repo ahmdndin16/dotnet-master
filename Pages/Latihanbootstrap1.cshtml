@@ -1,0 +1,63 @@
+@page
+@{
+    Layout=null;
+}
+
+<html>
+    <head>
+        <title>Mengenal Grid System Bootstrap</title>
+        <meta name="viewport" content="width=device-widht, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+        <script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+        <style type="text-css">
+            .warnorange
+            background-color: orange;
+            .warnblue
+            background-color: blue;
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6" style="background-color: yellow;">50%</div>
+                <div class="col-sm-6" style="background-color: orange;">50%</div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm warnblue">20%</div>
+                <div class="col-sm warnorange">50%</div>
+                <div class="col-sm warnblue">50%</div>
+                <div class="col-sm warnorange">50%</div>
+                <div class="col-sm warnblue">50%</div>
+            </div>
+        </div>
+         <div class="container-fluid">
+             <div class="row p-3">
+                 <div class="col-md-4">
+                     <h2>Belajar Net.Core</h2>
+                 <p>
+                     Belajar kau menghargai waktu
+                     </p>
+                 </div>
+                     <p><a href="#" class="btn btn-warning" role="button">View More</a></p>
+             </div>
+             <div class="col-md-4">
+                     <h2>Belajar Net.Core</h2>
+                 <p>
+                     hargai waktu
+                     </p>
+                 </div>
+                     <p><a href="#" class="btn btn-warning" role="button">View More</a></p>
+             </div>
+             <div class="col-md-4">
+                     <h2>Belajar Net.Core</h2>
+                 <p>
+                     waktu berharga
+                     </p>
+                 </div>
+                     <p><a href="#" class="btn btn-primary" role="button">View More</a></p>
+             </div>
+         </div>
+    </body>
+</html>
